@@ -1,7 +1,7 @@
 {
   "id": 441716542,
   "node_id": "R_kgDOGlQPPg",
-  "name": "test-repo",
+  "name": "${repoName}",
   "full_name": "adenskevitch/test-repo",
   "private": false,
   "owner": {
