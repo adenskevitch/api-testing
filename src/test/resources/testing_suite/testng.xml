@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Check git repo suit">
+    <test name="regression1">
+        <classes>
+            <class name="com.solvd.apitesting.TestAPI"/>
+        </classes>
+    </test>
+</suite>
