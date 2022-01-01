@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Check git repo suit">
+    <test name="repoTest1">
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.solvd.apitesting.TestAPI"/>
+        </classes>
+    </test>
+    <test name="repoTest2">
+        <groups>
+            <run>
+                <include name="update"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.solvd.apitesting.TestAPI">
+                <methods>
+                    <include name="testPutRepo"/>
+                    <include name="testPatchRepo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="repoTest3">
+        <groups>
+            <run>
+                <include name="select"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.solvd.apitesting"/>
+        </packages>
+    </test>
+    <test name="repoTest4">
+        <groups>
+            <run>
+                <include name="delete"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.solvd.apitesting"/>
+        </packages>
+    </test>
+</suite>

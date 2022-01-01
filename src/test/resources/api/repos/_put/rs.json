@@ -1,0 +1,46 @@
+{
+  "content": {
+    "name": "test.txt",
+    "path": "test.txt",
+    "sha": "4fcedad6b85eae31b6adae80f82aa4035b2cde5d",
+    "size": 9,
+    "url": "https://api.github.com/repos/adenskevitch/test-repo/contents/test.txt?ref=main",
+    "html_url": "https://github.com/adenskevitch/test-repo/blob/main/test.txt",
+    "git_url": "https://api.github.com/repos/adenskevitch/test-repo/git/blobs/4fcedad6b85eae31b6adae80f82aa4035b2cde5d",
+    "download_url": "https://raw.githubusercontent.com/adenskevitch/test-repo/main/test.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/adenskevitch/test-repo/contents/test.txt?ref=main",
+      "git": "https://api.github.com/repos/adenskevitch/test-repo/git/blobs/4fcedad6b85eae31b6adae80f82aa4035b2cde5d",
+      "html": "https://github.com/adenskevitch/test-repo/blob/main/test.txt"
+    }
+  },
+  "commit": {
+    "sha": "skip",
+    "node_id": "skip",
+    "url": "skip",
+    "html_url": "skip",
+    "author": {
+      "name": "adenskevitch",
+      "email": "84723495+adenskevitch@users.noreply.github.com",
+      "date": "skip"
+    },
+    "committer": {
+      "name": "adenskevitch",
+      "email": "84723495+adenskevitch@users.noreply.github.com",
+      "date": "skip"
+    },
+    "tree": {
+      "sha": "a8ab529cf2d1e3cf2164392ac7eca248829dad02",
+      "url": "https://api.github.com/repos/adenskevitch/test-repo/git/trees/a8ab529cf2d1e3cf2164392ac7eca248829dad02"
+    },
+    "message": "test message",
+    "parents": [],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  }
+}
